@@ -1,0 +1,15 @@
+h1 {
+    font-style: oblique;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+.ingredients {
+    color: cadetblue;
+}
+
+.preparation ol li{
+    border: 9px solid white;
+}
