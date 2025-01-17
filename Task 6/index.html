@@ -13,12 +13,18 @@ Task 6: HTML + CSS + JS - Change BackGround Color
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Change BackGround</title>
 </head>
 <body>
+    <label for="col">Select a color for the background:</label>
     <select name="col" id="col">
-        <option value=""></option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="white">Default</option>
     </select>
-    <input type="button" value="Change BackGround" id="chBckGrd">
+    <input onclick="changePageBackground()" type="button" value="Change BackGround" id="changePageBackgroundButton">
 </body>
 </html>
