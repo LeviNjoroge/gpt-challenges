@@ -1,0 +1,20 @@
+#images {
+    max-width: 100%;
+    display: inline;
+    flex-direction: row;
+    table-layout: auto;
+}
+
+img{
+    height: 700px;
+}
+
+@media (max-width: 480) {
+    #images {
+        display:block;
+        flex-direction: column;
+        max-width:max-content;
+        width: 480;
+        height: auto;
+    }
+}
