@@ -3,6 +3,7 @@ import java.util.*;
 public class PrimeNumberChecker {
 
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the whole number to check whether prime:");
