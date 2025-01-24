@@ -1,3 +1,9 @@
+nav{
+    width: 100%;
+    padding-inline: 50px;
+    
+}
+
 ul{
     list-style: none;
     display: flex;
