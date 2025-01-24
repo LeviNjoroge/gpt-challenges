@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+    display: flex;
+
+    li{
+        margin-left: 50px;
+    }
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
