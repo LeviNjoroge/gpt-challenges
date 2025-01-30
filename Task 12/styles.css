@@ -5,6 +5,13 @@
         Use a hover effect on the submit button. 
 */
 
+input{
+    width: 40%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
 #form {
     max-width: 500px;
     margin: 0 auto;
