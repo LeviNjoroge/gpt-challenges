@@ -1,0 +1,37 @@
+/* 
+    Style the contact page with CSS:
+        Center the form on the page.
+        Add padding and borders to the input fields.
+        Use a hover effect on the submit button. 
+*/
+
+#form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#form input, 
+#form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #45a049;
+}
