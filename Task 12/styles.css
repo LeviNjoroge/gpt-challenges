@@ -5,18 +5,21 @@
         Use a hover effect on the submit button. 
 */
 
+div{
+    margin: 10px;
+}
+
 input{
-    width: 40%;
+    width: 50%;
     padding: 5px;
     border: 1px solid gray;
-    border-radius: 5%;
 }
 
 #submit{
-    width: 40%;
+    width: 50%;
     padding: 5px;
     border: none;
-    border-radius: 5%;
+    border-radius: 5px;
     background-color: aquamarine;
     color: aliceblue;
     text-align: center;
@@ -24,15 +27,17 @@ input{
 }
 
 #submit:hover{
-
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
 }
+
 #form {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
 }
-
+/* 
 #form input, 
 #form textarea {
     width: 100%;
@@ -55,4 +60,4 @@ input{
 
 #form input[type="submit"]:hover {
     background-color: #45a049;
-}
+} */
