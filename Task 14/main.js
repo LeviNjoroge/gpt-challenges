@@ -1,4 +1,4 @@
 
-document.querySelector("select").onchange = () => {
-    document.getElementById("content").style.backgroundColor = document.querySelector("option").value;
+document.querySelector("select").onchange = function () {
+    document.getElementById("content").style.backgroundColor = this.value;
 }
