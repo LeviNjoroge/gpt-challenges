@@ -20,6 +20,13 @@ Task 15: HTML + CSS - Create a Simple Blog Post
 <body>
     <h1>This is the title of this blog post</h1>
     <p>This is some paragraph with the content</p>
-    <footer>By Lee Jay, &copy; </footer>
+    <footer>By Lee Jay, &copy; <span></span></footer>
+    <script>
+        function getCurrentYear() {
+            const currentDate = new Date();
+            return currentDate.getFullYear();
+        }
+        document.querySelector('footer span').textContent = getCurrentYear();
+    </script>
 </body>
 </html>
