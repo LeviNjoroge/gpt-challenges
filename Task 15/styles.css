@@ -6,3 +6,8 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+footer{
+    text-align: right;
+    margin-right: 0px;
+    display: flex;
+}
