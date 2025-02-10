@@ -9,3 +9,9 @@ p{
 footer{
     text-align: right;
 }
+
+#blog-post{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
