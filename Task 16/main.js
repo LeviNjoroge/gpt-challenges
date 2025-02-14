@@ -23,5 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
         result.innerHTML = num1 / num2;
     }
 
-
 });
