@@ -16,7 +16,12 @@ document.addEventListener("DOMContentLoaded", function() {
     subtract.onclick = function(){
         result.innerHTML = num1 - num2;
     }
-    
+    multiply.onclick = function(){
+        result.innerHTML = num1 * num2;
+    }
+    divide.onclick = function(){
+        result.innerHTML = num1 / num2;
+    }
 
 
 });
