@@ -11,16 +11,16 @@ document.addEventListener("DOMContentLoaded", function() {
     let divide = document.querySelector("#divide");
 
     add.onclick = function(){
-        result.innerHTML = num1 + num2;
+        result.textContent = num1 + num2;
     }
     subtract.onclick = function(){
-        result.innerHTML = num1 - num2;
+        result.textContent = num1 - num2;
     }
     multiply.onclick = function(){
-        result.innerHTML = num1 * num2;
+        result.textContent = num1 * num2;
     }
     divide.onclick = function(){
-        result.innerHTML = num1 / num2;
+        result.textContent = num1 / num2;
     }
 
 });
