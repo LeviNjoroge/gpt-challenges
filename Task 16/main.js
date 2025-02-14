@@ -2,8 +2,8 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
-    let num1 = document.querySelector("#num1").value;
-    let num2 = document.querySelector("#num2").value;
+    let num1 = document.querySelector("#num1");
+    let num2 = document.querySelector("#num2");
     let result = document.querySelector("#result");
     let add = document.querySelector("#add");
     let subtract = document.querySelector("#subtract");
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let divide = document.querySelector("#divide");
 
     add.onclick = function(){
-        result.textContent = num1 + num2;
+        result.textContent = num1.value + num2.value;
     }
     subtract.onclick = function(){
         result.textContent = num1 - num2;
