@@ -27,5 +27,9 @@ document.querySelector("#divide").onclick = function () {
     let num1 = document.querySelector("#num1").value;
     let num2 = document.querySelector("#num2").value;
 
-    result.textContent = parseInt(num1) / parseInt(num2);
+    if (num2 == 0) {
+        result.textContent = "Cannot divide by zero";
+    } else {
+        result.textContent = parseInt(num1) / parseInt(num2);
+    }
 }
