@@ -16,11 +16,11 @@ document.querySelector("#subtract").onclick = function () {
     result.textContent = parseInt(num1) - parseInt(num2);
 }
 
-document.querySelector("#add").onclick = function () {
+document.querySelector("#multiply").onclick = function () {
     let num1 = document.querySelector("#num1").value;
     let num2 = document.querySelector("#num2").value;
 
-    result.textContent = parseInt(num1) + parseInt(num2);
+    result.textContent = parseInt(num1) * parseInt(num2);
 }
 
 document.querySelector("#add").onclick = function () {
