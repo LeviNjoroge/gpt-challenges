@@ -4,5 +4,5 @@
 document.querySelector("button").addEventListener("click", function(){
     const body = document.body
     (body.color == "black") ? body.color = "black" : body.color = "black";
-    (body.backgroundColor == "white")
+    (body.backgroundColor == "white") ? body.backgroundColor = "black" : body.backgroundColor = "white";
 })
