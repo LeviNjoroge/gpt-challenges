@@ -2,6 +2,7 @@
 // and dark mode (black background, white text).
 
 document.querySelector("button").addEventListener("click", function(){
-    document.body.style.color == "black" ? document.body.style.color = "white" : document.body.style.color = "black";
-    document.body.style.backgroundColor == "white" ? document.body.style.backgroundColor = "black" : document.body.style.backgroundColor = "white";
+    const bStyle = document.body.style;
+    color == "black" ? bStyle.color = "white" : bStyle.color = "black";
+    bStyle.backgroundColor == "white" ? bStyle.backgroundColor = "black" : bStyle.backgroundColor = "white";
 })
