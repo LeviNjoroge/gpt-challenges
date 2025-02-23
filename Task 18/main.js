@@ -98,3 +98,7 @@ const sarcasticQuotes = [
     "Oh sure, you’re ‘different’ because you watch anime. So unique!"
   ];
   
+  document.querySelector("#genSarcasticQuotes").onclick = () => {
+    const sarcasticQuote = sarcasticQuotes[Math.floor(Math.random() * sarcasticQuotes.length)];
+    quoteContent.textContent = sarcasticQuote;
+  }
