@@ -17,3 +17,7 @@ const quotes = [
     "The only thing we have to fear is fear itself. - Franklin D. Roosevelt"
 ]
 
+genQuote.addEventListener("click", function(){
+    let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    quoteContent.innerHTML = randomQuote;
+})
