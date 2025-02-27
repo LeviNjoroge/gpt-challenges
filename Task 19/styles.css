@@ -1,7 +1,7 @@
 /* Add a shadow around the card.
 Use a hover effect on the button. */
 
-body{
+.items{
     display: flex;
     flex-direction:row;
     align-items: center;
@@ -42,4 +42,10 @@ button{
 button:hover{
     background-color: #4CAF50;
     color: white;
+}
+
+#footer{
+    margin-bottom: 2%;
+    margin-right: 0px;
+
 }
