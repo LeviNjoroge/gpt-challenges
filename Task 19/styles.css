@@ -16,5 +16,14 @@ Use a hover effect on the button. */
 }
 
 button{
-    
+    padding: 10px;
+    width: 74%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #007bff;
+}
+
+button:hover{
+    background-color: #4CAF50;
+    color: white;
 }
