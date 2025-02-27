@@ -3,12 +3,17 @@ Use a hover effect on the button. */
 
 body{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     align-items: center;
     justify-content: center;
 }
 
 #product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 10px;
