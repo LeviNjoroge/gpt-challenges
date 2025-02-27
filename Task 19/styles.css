@@ -6,8 +6,7 @@ Use a hover effect on the button. */
     width: 300px;
     height: 500px;
     padding: 10px;
-    /* img{
-        height: 50%;
-    } */
-
+    margin: 10px;
+    text-align: center;
+    
 }
