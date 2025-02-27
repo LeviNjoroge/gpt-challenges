@@ -10,7 +10,11 @@ Use a hover effect on the button. */
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: column;
-        width: 75%;
-        height: 40%;
+        width: 80%;
+        height: 50%;
     }
+}
+
+button{
+    
 }
