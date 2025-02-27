@@ -7,8 +7,8 @@ Use a hover effect on the button. */
     height: 500px;
     padding: 10px;
     img{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         flex-direction: column;
         width: 75%;
         height: 40%;
