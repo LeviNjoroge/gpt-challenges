@@ -2,6 +2,7 @@
 Use a hover effect on the button. */
 
 #product-card{
+    margin-left: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 300px;
     height: 500px;
@@ -21,6 +22,7 @@ button{
     margin-left: 20px;
     margin-right: 20px;
     background-color: #007bff;
+    border-radius: 10px;
 }
 
 button:hover{
