@@ -1,0 +1,13 @@
+/* Add a shadow around the card.
+Use a hover effect on the button. */
+
+#product-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    /* img{
+        height: 50%;
+    } */
+
+}
