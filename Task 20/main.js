@@ -6,3 +6,7 @@
 </form>
 <h1 id="display"></h1>
 
+document.querySelector('#start').addEventListener("click", () => {
+    let num = document.querySelector('#num').value;
+    
+})
