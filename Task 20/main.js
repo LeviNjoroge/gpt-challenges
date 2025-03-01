@@ -14,4 +14,4 @@ document.querySelector('#start').addEventListener("click", () => {
     //         clearInterval();
     //     }
     // },1000)
-})
+});
