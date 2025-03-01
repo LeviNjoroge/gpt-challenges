@@ -8,5 +8,6 @@
 
 document.querySelector('#start').addEventListener("click", () => {
     let num = document.querySelector('#num').value;
+    let display = document.querySelector('#display');
     
 })
