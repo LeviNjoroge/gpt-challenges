@@ -5,11 +5,12 @@ document.querySelector('#start').addEventListener("click", () => {
     let num = document.querySelector('#num').value;
     let display = document.querySelector('#display');
     
-    setInterval(()=>{
-        display.textContent = num;
-        num--;
-        if(num === 0){
-            clearInterval();
+    const countdown = () => {
+        if (num === 0) {
+            clearInterval(interval);
         }
-    },1000)
+        display.innerHTML = num;
+        num--;
+    }
+    setInterval(countdown,1000)
 })
