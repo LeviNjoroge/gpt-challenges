@@ -8,7 +8,6 @@ document.querySelector('#start').addEventListener("click", () => {
     let interval = setInterval(() => {
         display.textContent = num;
         num--;
-        
         if (num < 0) { // Stop at 0
             clearInterval(interval);
         }
