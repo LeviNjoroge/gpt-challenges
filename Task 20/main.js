@@ -4,11 +4,14 @@
 document.querySelector('#start').addEventListener("click", () => {
     let num = document.querySelector('#num').value;
     let display = document.querySelector('#display');
-    setInterval(()=>{
-        display.textContent = num;
-        num--;
-        if(num === 0){
-            clearInterval();
-        }
-    },1000)
+
+    display.textContent = num;
+
+    // setInterval(()=>{
+    //     display.textContent = num;
+    //     num--;
+    //     if(num === 0){
+    //         clearInterval();
+    //     }
+    // },1000)
 })
