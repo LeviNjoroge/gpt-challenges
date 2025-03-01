@@ -2,15 +2,15 @@
 // Update the display every second. 
 
 document.querySelector('#start').addEventListener("click", () => {
-    let num = document.querySelector('#num').value;
+    let num = parseInt(document.querySelector('#num').value); // Convert to number
     let display = document.querySelector('#display');
     
-    const countdown = () => {
-        if (num === 0) {
+    let interval = setInterval(() => {
+        display.textContent = num;
+        num--;
+        
+        if (num < 0) { // Stop at 0
             clearInterval(interval);
         }
-        display.innerHTML = num;
-        num--;
-    }
-    setInterval(countdown,1000)
-})
+    }, 1000);
+});
