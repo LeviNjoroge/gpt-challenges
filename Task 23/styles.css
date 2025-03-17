@@ -6,4 +6,24 @@
         border: none;
         cursor: pointer;
     }
+    button:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    button:active{
+        background-color: #fff;
+        color: #000;
+    }
+    button:focus{
+        background-color: #fff;
+        color: #000;
+    }
+    button:disabled{
+        background-color: #fff;
+        color: #000;
+    }
+    button:visited{
+        background-color: #fff;
+        color: #000;
+    }
 }
