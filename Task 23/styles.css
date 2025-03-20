@@ -16,5 +16,13 @@ body{
     /* Create a Dark Mode Theme
     Design a webpage with both light and dark modes (CSS only).  */
     
-    color:black
+    light-mode{
+        color:black;
+        background-color: white;
+    }
+    dark-mode{
+        color: #fff;
+        background-color: black;
+    }
+
 }
