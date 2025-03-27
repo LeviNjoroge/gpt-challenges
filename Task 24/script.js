@@ -1,7 +1,7 @@
 const button = documnent.querySelector("button");
 
 document.addEventListener("DOMContentLoaded",()=>{
-    button.addEventListener("click",() =>{
-        document.body.style.backgroundColor = "blue";
+    button.addEventListener("click",function () {
+        document.style.backgroundColor = "blue";
     })
 })
