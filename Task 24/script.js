@@ -5,3 +5,4 @@ document.addEventListener("DOMContentLoaded",()=>{
         document.style.backgroundColor = "blue";
     })
 })
+
