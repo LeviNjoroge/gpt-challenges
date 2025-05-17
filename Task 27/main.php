@@ -11,7 +11,7 @@
 10. Create a pagination system for displaying database results.
 11. Create a class for a "Bank Account" with deposit and withdraw methods.
 
-Build an API in PHP that returns JSON data.
+12. Build an API in PHP that returns JSON data.
 
 Implement a login system using password hashing and sessions.
 
