@@ -8,7 +8,21 @@
 7. Create a contact form and validate the input using PHP.
 8. Store and retrieve session data.
 9. Upload an image and save its name in a database.
-10. 
+10. Create a pagination system for displaying database results.
+
+Create a class for a "Bank Account" with deposit and withdraw methods.
+
+Build an API in PHP that returns JSON data.
+
+Implement a login system using password hashing and sessions.
+
+Use cURL in PHP to consume an external API (like weather or currency).
+
+Write a script to generate a CSV file from database entries.
+
+Create a blog where posts are stored in a MySQL database and displayed on a page.
+
+
 -->
 
 
