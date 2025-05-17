@@ -4,9 +4,7 @@
 3. Make a form that takes a user's name and displays a greeting.
 4. Write a program that reverses a string.
 5. Build a simple login system (use hardcoded username/password).
-
 6. Read a text file and count the number of words in it.
-
 7. Create a contact form and validate the input using PHP.
 -->
 
