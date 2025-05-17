@@ -9,7 +9,6 @@
 8. Store and retrieve session data.
 9. Upload an image and save its name in a database.
 10. Create a pagination system for displaying database results.
-
 Create a class for a "Bank Account" with deposit and withdraw methods.
 
 Build an API in PHP that returns JSON data.
