@@ -3,7 +3,7 @@
 2. Create an associative array of 5 countries and their capitals, and print them.
 3. Make a form that takes a user's name and displays a greeting.
 4. Write a program that reverses a string.
-Build a simple login system (use hardcoded username/password).
+5. Build a simple login system (use hardcoded username/password).
 
 Read a text file and count the number of words in it.
 
