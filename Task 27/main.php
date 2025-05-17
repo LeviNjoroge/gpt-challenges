@@ -7,7 +7,6 @@
 6. Read a text file and count the number of words in it.
 7. Create a contact form and validate the input using PHP.
 8, Store and retrieve session data.
-
 Upload an image and save its name in a database.
 
 -->
