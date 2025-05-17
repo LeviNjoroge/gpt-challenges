@@ -10,9 +10,7 @@
 9. Upload an image and save its name in a database.
 10. Create a pagination system for displaying database results.
 11. Create a class for a "Bank Account" with deposit and withdraw methods.
-
 12. Build an API in PHP that returns JSON data.
-
 13. Implement a login system using password hashing and sessions.
 
 14. Use cURL in PHP to consume an external API (like weather or currency).
