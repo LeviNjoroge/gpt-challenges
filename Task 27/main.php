@@ -14,7 +14,6 @@
 13. Implement a login system using password hashing and sessions.
 14. Use cURL in PHP to consume an external API (like weather or currency).
 15. Write a script to generate a CSV file from database entries.
-
 16. Create a blog where posts are stored in a MySQL database and displayed on a page.
 
 
