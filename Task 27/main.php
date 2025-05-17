@@ -7,7 +7,7 @@
 
 6. Read a text file and count the number of words in it.
 
-Create a contact form and validate the input using PHP.
+7. Create a contact form and validate the input using PHP.
 -->
 
 
