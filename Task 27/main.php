@@ -19,7 +19,7 @@
 
 15. Write a script to generate a CSV file from database entries.
 
-Create a blog where posts are stored in a MySQL database and displayed on a page.
+16. Create a blog where posts are stored in a MySQL database and displayed on a page.
 
 
 -->
