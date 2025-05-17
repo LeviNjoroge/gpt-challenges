@@ -13,7 +13,7 @@
 
 12. Build an API in PHP that returns JSON data.
 
-Implement a login system using password hashing and sessions.
+13. Implement a login system using password hashing and sessions.
 
 Use cURL in PHP to consume an external API (like weather or currency).
 
