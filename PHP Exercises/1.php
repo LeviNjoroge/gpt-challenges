@@ -16,5 +16,9 @@
         <input type="number" name="num3" id="num3"> <br>
         <input type="submit" value="Find the Largest!"> <br>
     </form>
+
+    <?php
+        
+    ?>
 </body>
 </html>
