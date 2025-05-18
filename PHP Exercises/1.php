@@ -18,7 +18,9 @@
     </form>
 
     <?php
-        
+        if(isset($_GET["num1"])&&isset($_GET["num1"])&&isset($_GET["num1"])){
+            
+        }
     ?>
 </body>
 </html>
