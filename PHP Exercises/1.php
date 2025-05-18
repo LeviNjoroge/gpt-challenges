@@ -14,7 +14,7 @@
         <input type="number" name="num1" id="num1"> <br>
         <input type="number" name="num2" id="num2"> <br>
         <input type="number" name="num3" id="num3"> <br>
-        <input type="submit" value="Find the Largest">
+        <input type="submit" value="Find the Largest!"> <br>
     </form>
 </body>
 </html>
