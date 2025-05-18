@@ -12,8 +12,8 @@
 <body>
     <form action="">
         <input type="number" name="num1" id="num1" placeholder="Enter the first number..."> <br>
-        <input type="number" name="num2" id="num2"> <br>
-        <input type="number" name="num3" id="num3"> <br>
+        <input type="number" name="num2" id="num2" placeholder="Enter the second number..."> <br>
+        <input type="number" name="num3" id="num3" placeholder="Enter the third number..."> <br>
         <input type="submit" value="Find the Largest!"> <br>
     </form>
 
