@@ -25,7 +25,7 @@
 
             $max = max($num1, $num2, $num3);
 
-            echo "The maximum number is: ";
+            echo "The maximum number is: {$max}";
         }
     ?>
 </body>
