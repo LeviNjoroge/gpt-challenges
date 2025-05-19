@@ -10,22 +10,9 @@
         "United States"=>"Washington DC",
         "Italy"=>"Rome"
     );
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arrays</title>
-</head>
-<body>
-    <p>
-        <?php
-                foreach($capitals as $country => $city) {
+    
+    foreach($capitals as $country => $city) {
         echo "The capital city of {$country} is {$city} <br>";
-    }
-        ?>
-    </p>
-</body>
-</html>
+    };
+        
+?>
