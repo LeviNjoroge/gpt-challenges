@@ -6,7 +6,9 @@
     $capitals = array(
         "Kenya"=>"Nairobi", 
         "Uganda"=>"Kampala",
-        "United Kingdom"=>"London"
+        "United Kingdom"=>"London",
+        "United States"=>"Washington DC",
+        "Italy"=>"Rome"
                     )
 ?>
 
