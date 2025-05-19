@@ -10,6 +10,10 @@
         "United States"=>"Washington DC",
         "Italy"=>"Rome"
                     )
+
+    foreach ($array as $country => $city) {
+        
+    }
 ?>
 
 <!DOCTYPE html>
