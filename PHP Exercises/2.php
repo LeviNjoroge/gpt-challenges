@@ -12,7 +12,7 @@
     );
 
     foreach($capitals as $country => $city) {
-        echo "The capital city of {$country} is {$city}";
+        echo "The capital city of {$country} is {$city} <br>";
     }
 ?>
 
