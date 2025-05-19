@@ -3,7 +3,7 @@
 -->
 
 <?php
-    
+    $capitals = 
 ?>
 
 <!DOCTYPE html>
