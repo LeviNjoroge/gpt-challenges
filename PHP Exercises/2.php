@@ -9,9 +9,9 @@
         "United Kingdom"=>"London",
         "United States"=>"Washington DC",
         "Italy"=>"Rome"
-                    )
+    );
 
-    foreach ($capitals as $country => $city) {
+    foreach($capitals as $country => $city) {
         echo "The capital city of {$country} is {$city}";
     }
 ?>
