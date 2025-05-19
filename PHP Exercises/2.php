@@ -21,9 +21,11 @@
 </head>
 <body>
     <p>
-            foreach($capitals as $country => $city) {
+        <?php
+                foreach($capitals as $country => $city) {
         echo "The capital city of {$country} is {$city} <br>";
     }
+        ?>
     </p>
 </body>
 </html>
