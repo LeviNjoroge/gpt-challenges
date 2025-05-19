@@ -12,7 +12,7 @@
                     )
 
     foreach ($array as $country => $city) {
-        echo "The capital city of "
+        echo "The capital city of {$country} is {$city}";
     }
 ?>
 
