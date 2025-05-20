@@ -10,6 +10,13 @@
     <title>Simple Form</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="">
+        <input type="text" name="name" id="name" placeholder="Enter name">
+        <input type="submit" value="Submit"> <br>
+    </form>
+
+    <?php
+        
+    ?>
 </body>
 </html>
