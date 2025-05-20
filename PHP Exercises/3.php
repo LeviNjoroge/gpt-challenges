@@ -10,6 +10,6 @@
     <title>Simple Form</title>
 </head>
 <body>
-    
+    <form action=""></form>
 </body>
 </html>
