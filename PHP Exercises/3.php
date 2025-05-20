@@ -11,12 +11,12 @@
 </head>
 <body>
     <form action="">
-        <input type="text" name="name" id="name" placeholder="Enter name">
+        <input type="text" name="name" id="name" placeholder="Enter name...">
         <input type="submit" value="Submit"> <br>
     </form>
 
     <?php
-        
+
     ?>
 </body>
 </html>
