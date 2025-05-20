@@ -16,7 +16,9 @@
     </form>
 
     <?php
-        if(isset)
+        if(isset($_GET["name"])){
+            
+        }
     ?>
 </body>
 </html>
