@@ -6,7 +6,6 @@
     if(isset($_GET["str"])){
         $str = $_GET["str"];
         $reversed_str = strrev($str);
-        echo "{$str} revered is {$reversed_str}";
     }
 ?>
 
@@ -23,5 +22,11 @@
         <input type="text" name="str" id="str"> 
         <input type="submit" value="Submit!">
     </form>
+
+    <h2>
+        <?php
+        
+        ?>
+    </h2>
 </body>
 </html>
