@@ -3,7 +3,9 @@
 -->
 
 <?php
-
+    if(isset($_GET["str"])){
+        
+    }
 ?>
 
 <!DOCTYPE html>
