@@ -6,6 +6,7 @@
     if(isset($_GET["str"])){
         $str = $_GET["str"];
         $reversed_str = array_reverse($str);
+        echo "{$str} revered is {$reversed_str}";
     }
 ?>
 
