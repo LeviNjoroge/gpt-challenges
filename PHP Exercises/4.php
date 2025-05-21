@@ -16,7 +16,8 @@
 <body>
     <form action="">
         <label for="str">Enter a string to be reversed...</label> <br>
-        <input type="text" name="str" id="str">
+        <input type="text" name="str" id="str"> 
+        <input type="submit" value="Submit!">
     </form>
 </body>
 </html>
