@@ -14,6 +14,9 @@
     <title>String Reversal</title>
 </head>
 <body>
-    
+    <form action="">
+        <label for="str">Enter a </label>
+        <input type="text" name="str" id="str">
+    </form>
 </body>
 </html>
