@@ -15,7 +15,7 @@
 </head>
 <body>
     <form action="">
-        <label for="str">Enter a </label>
+        <label for="str">Enter a string to be reversed</label>
         <input type="text" name="str" id="str">
     </form>
 </body>
