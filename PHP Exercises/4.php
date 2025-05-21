@@ -25,7 +25,7 @@
 
     <h2>
         <?php
-        
+            echo "{$str} revered is {$reversed_str}";
         ?>
     </h2>
 </body>
