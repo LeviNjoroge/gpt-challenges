@@ -11,7 +11,7 @@
 </head>
 <body>
     <form action="">
-        input:
+        <input type="text" name="username" id="username">
     </form>
 </body>
 </html>
