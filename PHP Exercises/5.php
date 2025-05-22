@@ -2,6 +2,10 @@
     5. Build a simple login system (use hardcoded username/password).
 -->
 
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
