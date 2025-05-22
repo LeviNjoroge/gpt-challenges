@@ -12,6 +12,7 @@
 <body>
     <form action="">
         <input type="text" name="username" id="username" placeholder="Username..."> <br>
+        <input type="password" name="password" id="password" placeholder="Password...">
     </form>
 </body>
 </html>
