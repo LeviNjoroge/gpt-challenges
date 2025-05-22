@@ -11,7 +11,7 @@
 </head>
 <body>
     <form action="">
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" id="username" placeholder="Username..."> <br>
     </form>
 </body>
 </html>
