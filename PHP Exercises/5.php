@@ -10,6 +10,8 @@
     <title>Simple Login System</title>
 </head>
 <body>
-    
+    <form action="">
+        input:
+    </form>
 </body>
 </html>
