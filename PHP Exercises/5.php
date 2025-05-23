@@ -3,7 +3,7 @@
 -->
 
 <?php
-    if()
+    if(isset())
 ?>
 
 <!DOCTYPE html>
