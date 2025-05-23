@@ -11,7 +11,7 @@
             echo "Correct! <br>Proceed to login";
         }
         else{
-            
+            echo "Credentials mismatch!";
         }
     }
 ?>
