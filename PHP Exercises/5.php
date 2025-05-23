@@ -3,7 +3,7 @@
 -->
 
 <?php
-    if(isset($_POST[""]))
+    if(isset($_POST["username"])&&isset($_POST[""]))
 ?>
 
 <!DOCTYPE html>
