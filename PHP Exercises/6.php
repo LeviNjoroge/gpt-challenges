@@ -3,7 +3,9 @@
 -->
 
 <?php
-    if()
+    if(isset($_GET["file_upload"])){
+        
+    }
 ?>
 
 <!DOCTYPE html>
