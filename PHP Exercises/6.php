@@ -14,6 +14,6 @@
     <title>Reading a text file using PHP</title>
 </head>
 <body>
-    
+    <form action=""></form>
 </body>
 </html>
