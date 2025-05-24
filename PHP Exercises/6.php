@@ -15,7 +15,8 @@
 </head>
 <body>
     <form action="">
-        <input type="file" name="file_upload" id="">
+        <input type="file" name="file_upload" id="file_upload"> 
+        <input type="submit" value="">
     </form>
 </body>
 </html>
