@@ -14,6 +14,8 @@
     <title>Reading a text file using PHP</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="">
+        <input type="file" name="file_upload" id="">
+    </form>
 </body>
 </html>
