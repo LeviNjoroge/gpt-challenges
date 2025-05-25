@@ -15,15 +15,15 @@
 </head>
 <body>
     <div class="contact_form">
-            <h2>Message Us</h2>
-    <form action="">
-        <label for="name">Name: </label>
-        <input type="text" name="name" id="name"> <br>
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email"> <br>
-        <textarea name="message" id="message" placeholder="Enter your message here"></textarea> <br>
-        <input type="submit" value="Send">
-    </form>
+        <h2>Message Us</h2>
+        <form action="">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name"> <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"> <br>
+            <textarea name="message" id="message" placeholder="Enter your message here"></textarea> <br>
+            <input type="submit" value="Send">
+        </form>
     </div>
 </body>
 </html>
