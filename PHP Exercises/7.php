@@ -25,6 +25,8 @@
             <input type="submit" value="Send">
         </form>
     </div>
-    <div class="received_messages"></div>
+    <div class="received_messages">
+        <h2>Received Messages</h2>
+    </div>
 </body>
 </html>
