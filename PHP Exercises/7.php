@@ -14,6 +14,6 @@
     <title>Contact Form</title>
 </head>
 <body>
-    
+    <form action=""></form>
 </body>
 </html>
