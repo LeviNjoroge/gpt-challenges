@@ -3,10 +3,19 @@
 -->
 
 <?php
+    
     //db config
-    $host = $_ENV["HOST"];
-    $user = $_ENV["USER"];
-    $password = $ENV[""]
+    $host = getenv("HOST");
+    $user = getenv("USER");
+    $password = getenv("PASSWORD");
+    $database = "php_contact_page";
+
+    echo "{$host} <br>{$user} {$password} {$database}";
+
+    // $conn = mysqli_connect($host, $user, $password, $database);
+    // if($conn){
+    //     echo "database connected successfully!";
+    // }
 ?>
 
 <!DOCTYPE html>
