@@ -3,7 +3,10 @@
 -->
 
 <?php
-
+    //db config
+    $host = $_ENV["HOST"];
+    $user = $_ENV["USER"];
+    $password = $ENV[""]
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +30,7 @@
     </div>
     <div class="received_messages">
         <h2>Received Messages</h2>
-        
+
     </div>
 </body>
 </html>
