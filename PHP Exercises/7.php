@@ -19,6 +19,7 @@
         <input type="text" name="name" id="name"> <br>
         <label for="email">Email: </label>
         <input type="email" name="email" id="email"> <br>
+        <textarea name="message" id="message" placeholder="Enter your message here"></textarea>
     </form>
 </body>
 </html>
