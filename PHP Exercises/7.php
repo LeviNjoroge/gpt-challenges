@@ -15,7 +15,7 @@
 </head>
 <body>
     <form action="">
-        <label for="name"></label>
+        <label for="name">Name: </label>
         <input type="text" name="name" id="name">
     </form>
 </body>
