@@ -14,6 +14,9 @@
     <title>Contact Form</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="">
+        label
+        <input type="text" name="name" id="name">
+    </form>
 </body>
 </html>
