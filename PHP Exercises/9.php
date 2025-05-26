@@ -10,6 +10,8 @@
     <title>Image Saving</title>
 </head>
 <body>
-    fo
+    <form action="">
+        
+    </form>
 </body>
 </html>
