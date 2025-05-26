@@ -11,7 +11,9 @@
 </head>
 <body>
     <form action="">
-        
+        <label for="img">Save your image...</label> <br>
+        <input type="file" name="img" id="img">
+        <input type="submit" value="Save!"> <br>
     </form>
 </body>
 </html>
