@@ -8,6 +8,10 @@
     $host = getenv("HOST");
     $user = getenv("USER");
     $password = getenv("PASSWORD");
+
+    // $host = $_ENV["HOST"];
+    // $user = $_ENV["USER"];
+    // $password = $_ENV["PASSWORD"];
     $database = "php_contact_page";
 
     echo "{$host} <br>{$user} {$password} {$database}";
@@ -16,6 +20,11 @@
     // if($conn){
     //     echo "database connected successfully!";
     // }
+
+    foreach (getenv() as $key => $value) {
+        echo "<b>{$key} </b> {$value}<br>";
+    }
+
 ?>
 
 <!DOCTYPE html>
