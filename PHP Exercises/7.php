@@ -10,10 +10,6 @@
         echo "database connected successfully!";
     }
 
-    foreach (getenv() as $key => $value) {
-        echo "<b>{$key} </b> {$value}<br>";
-    }
-
 ?>
 
 <!DOCTYPE html>
