@@ -6,12 +6,9 @@
     require 'config.php';
     setup_dtb("php_contact_page");
 
-    echo "{$host} <br>{$user} {$password} {$database}";
-
-    // $conn = mysqli_connect($host, $user, $password, $database);
-    // if($conn){
-    //     echo "database connected successfully!";
-    // }
+    if($conn){
+        echo "database connected successfully!";
+    }
 
     foreach (getenv() as $key => $value) {
         echo "<b>{$key} </b> {$value}<br>";
