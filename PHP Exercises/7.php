@@ -3,7 +3,7 @@
 -->
 
 <?php
-    
+    require 'config.php';
     //db config
     $host = getenv("HOST");
     $user = getenv("USER");
