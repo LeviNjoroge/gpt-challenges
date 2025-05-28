@@ -4,7 +4,7 @@
 
 <?php
     require 'config.php';
-    $database = "php_contact_page";
+    setup_dtb("php_contact_page");
 
     echo "{$host} <br>{$user} {$password} {$database}";
 
