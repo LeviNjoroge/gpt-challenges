@@ -4,14 +4,6 @@
 
 <?php
     require 'config.php';
-    //db config
-    $host = getenv("HOST");
-    $user = getenv("USER");
-    $password = getenv("PASSWORD");
-
-    // $host = $_ENV["HOST"];
-    // $user = $_ENV["USER"];
-    // $password = $_ENV["PASSWORD"];
     $database = "php_contact_page";
 
     echo "{$host} <br>{$user} {$password} {$database}";
