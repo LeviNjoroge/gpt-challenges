@@ -26,22 +26,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+
+        .contact_form, .received_messages {
+            background-color: #fff;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-top: 1rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.25rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        input[type="submit"] {
+            margin-top: 1rem;
+            padding: 0.6rem 1.2rem;
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
+
     <div class="contact_form">
         <h2>Message Us</h2>
         <form action="" method="POST">
-            <label for="name">Name: </label>
-            <input type="text" name="name" id="name"> <br>
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email"> <br>
-            <textarea name="message" id="message" placeholder="Enter your message here"></textarea> <br>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Enter your message here"></textarea>
+
             <input type="submit" value="Send">
         </form>
     </div>
+
     <div class="received_messages">
         <h2>Received Messages</h2>
-
+        <!-- Messages will be displayed here -->
     </div>
+
 </body>
 </html>
