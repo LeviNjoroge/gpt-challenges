@@ -8,6 +8,9 @@
     setup_dtb("php_contact_page");
 
     //setting vars
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_
 
     //dtb updates
     $query = "INSERT INTO messages VALUES($name, $email, $message, CURRENT_TIMESTAMP);"
@@ -24,7 +27,7 @@
 <body>
     <div class="contact_form">
         <h2>Message Us</h2>
-        <form action="">
+        <form action="" method="POST">
             <label for="name">Name: </label>
             <input type="text" name="name" id="name"> <br>
             <label for="email">Email: </label>
