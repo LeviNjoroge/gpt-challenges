@@ -7,7 +7,8 @@
     require 'config.php';
     setup_dtb("php_contact_page");
 
-    $query = INSERT INTO messages VALUES("jun", "junlee@gmail.com", "Thank you for this amaizing opportunity y'all!", CURRENT_TIMESTAMP);
+    //dtb updates
+    $query = 
 
 ?>
 
