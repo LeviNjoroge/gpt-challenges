@@ -7,16 +7,17 @@
     require 'config.php';
     setup_dtb("php_contact_page");
 
-    //setting vars
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
+    if(isset($_POST["name"])){
+        //setting vars
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+        $message = $_POST["message"];
 
-    //dtb updates
-    $msq_query = "INSERT INTO messages VALUES($name, $email, $message, CURRENT_TIMESTAMP);"
+        //dtb updates
+        $msq_query = "INSERT INTO messages VALUES($name, $email, $message, CURRENT_TIMESTAMP);";
 
-    $dtb_update = mysqli_query($conn, $msq_query);
-
+        $dtb_update = mysqli_query($conn, $msq_query);
+    }
 ?>
 
 <!DOCTYPE html>
