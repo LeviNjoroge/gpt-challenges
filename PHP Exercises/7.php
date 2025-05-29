@@ -10,10 +10,12 @@
     //setting vars
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $message = $_
+    $message = $_POST["message"];
 
     //dtb updates
-    $query = "INSERT INTO messages VALUES($name, $email, $message, CURRENT_TIMESTAMP);"
+    $msq_query = "INSERT INTO messages VALUES($name, $email, $message, CURRENT_TIMESTAMP);"
+
+    $dtb_update = mysqli_query($conn, $msq_query);
 
 ?>
 
