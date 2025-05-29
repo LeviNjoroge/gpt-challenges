@@ -5,6 +5,7 @@
 <?php
     //dtb connection
     require "config.php";
+    setup_dtb()
 ?>
 
 <!DOCTYPE html>

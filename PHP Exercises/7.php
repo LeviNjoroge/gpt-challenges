@@ -6,9 +6,7 @@
     require 'config.php';
     setup_dtb("php_contact_page");
 
-    if($conn){
-        echo "database connected successfully!";
-    }
+    $query = 
 
 ?>
 
