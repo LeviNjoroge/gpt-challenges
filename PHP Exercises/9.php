@@ -4,6 +4,7 @@
 
 <?php
     //dtb connection
+    require "config.php";
 ?>
 
 <!DOCTYPE html>
