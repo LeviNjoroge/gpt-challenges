@@ -104,7 +104,11 @@
 
     <div class="received_messages">
         <h2>Received Messages</h2>
-        <!-- Messages will be displayed here -->
+        <?php
+            foreach ($q_results as $key => $value) {
+                echo "{$key} is {$value}";
+            }
+        ?>
     </div>
 
 </body>
