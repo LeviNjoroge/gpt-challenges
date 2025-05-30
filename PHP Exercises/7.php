@@ -86,7 +86,6 @@
     </style>
 </head>
 <body>
-
     <div class="contact_form">
         <h2>Message Us</h2>
         <form action="" method="POST">
