@@ -17,6 +17,8 @@
         $msq_query = "INSERT INTO messages VALUES('$name', '$email', '$message', CURRENT_TIMESTAMP);";
 
         $dtb_update = mysqli_query($conn, $msq_query);
+
+        $results_query
     }
 ?>
 
