@@ -18,7 +18,9 @@
 
         $dtb_update = mysqli_query($conn, $msq_query);
 
-        $results_query = "";
+        $results_query = "SELECT * FROM messages";
+
+        $q_results = 
     }
 ?>
 
