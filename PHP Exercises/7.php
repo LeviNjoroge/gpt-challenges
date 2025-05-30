@@ -18,7 +18,7 @@
 
         $dtb_update = mysqli_query($conn, $msq_query);
 
-        $results_query
+        $results_query = "";
     }
 ?>
 
