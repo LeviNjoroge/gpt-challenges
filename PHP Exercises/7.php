@@ -20,7 +20,7 @@
 
         $results_query = "SELECT * FROM messages";
 
-        $q_results = 
+        $q_results = mysqli_query($conn, $results_query);
     }
 ?>
 
