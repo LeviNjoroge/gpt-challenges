@@ -107,7 +107,9 @@
         <ul>
             <li>
                 <?php
-                    
+                    if(mysqli_num_rows($q_results)>0){
+                        
+                    }
                 ?>
             </li>
         </ul>
