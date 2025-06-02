@@ -104,8 +104,13 @@
 
     <div class="received_messages">
         <h2>Received Messages</h2>
-        <?php
-        ?>
+        <ul>
+            <li>
+                <?php
+                    
+                ?>
+            </li>
+        </ul>
     </div>
 
 </body>
