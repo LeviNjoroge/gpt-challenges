@@ -30,60 +30,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 2rem;
-            background-color: #f9f9f9;
-        }
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
-        .contact_form, .received_messages {
-            background-color: #fff;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
-        }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 2rem;
+        background: linear-gradient(to right, #f0f4f8, #e0eafc);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-        h2 {
-            margin-bottom: 1rem;
-        }
+    h2 {
+        margin-bottom: 1rem;
+        color: #333;
+    }
 
-        label {
-            display: block;
-            margin-top: 1rem;
-        }
+    .contact_form, .received_messages {
+        background-color: #ffffff;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 500px;
+        transition: all 0.3s ease;
+    }
 
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%;
-            padding: 0.5rem;
-            margin-top: 0.25rem;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
+    label {
+        display: block;
+        margin-top: 1rem;
+        font-weight: 500;
+        color: #444;
+    }
 
-        textarea {
-            resize: vertical;
-            min-height: 100px;
-        }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 0.7rem;
+        margin-top: 0.3rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: border-color 0.2s;
+    }
 
-        input[type="submit"] {
-            margin-top: 1rem;
-            padding: 0.6rem 1.2rem;
-            background-color: #007BFF;
-            border: none;
-            color: white;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+    input:focus,
+    textarea:focus {
+        border-color: #007bff;
+        outline: none;
+    }
 
-        input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    textarea {
+        resize: vertical;
+        min-height: 120px;
+    }
+
+    input[type="submit"] {
+        margin-top: 1.5rem;
+        padding: 0.7rem 1.5rem;
+        background-color: #007bff;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    .received_messages ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .received_messages li {
+        background-color: #f8f9fa;
+        border-left: 4px solid #007bff;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 6px;
+    }
+
+    .received_messages li:hover {
+        background-color: #eef3f7;
+    }
+
+    .received_messages li br:first-of-type {
+        display: none;
+    }
+</style>
+
 </head>
 <body>
     <div class="contact_form">
