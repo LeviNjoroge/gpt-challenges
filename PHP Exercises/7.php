@@ -105,15 +105,16 @@
     <div class="received_messages">
         <h2>Received Messages</h2>
         <ul>
-            <li>
-                <?php
-                    if(mysqli_num_rows($q_results)>0){
-                        while($comment = mysqli_fetch_assoc($q_results)){
-                            echo $comment["TIME"]."<br>".$comment["EMAIL"]."<br>".$comment["NAME"]."<br>".$comment["MESSAGE"];
-                        }
+            <?php
+                if(mysqli_num_rows($q_results)>0){
+                    while($comment = mysqli_fetch_assoc($q_results)){
+                        echo "<li>";
+                        echo $comment["TIME"];
+                        echo "<br>".$comment["EMAIL"]."<br>".$comment["NAME"]."<br>".$comment["MESSAGE"];
+                        echo "</li> <br>";                        
                     }
-                ?>
-            </li>
+                }
+            ?>
         </ul>
     </div>
 
