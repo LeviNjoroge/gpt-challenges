@@ -108,7 +108,9 @@
             <li>
                 <?php
                     if(mysqli_num_rows($q_results)>0){
-                        
+                        while($comment = mysqli_fetch_assoc($q_results)){
+                            echo $comment["TIME"]."<br>".$comment["EMAIL"]."<br>".$comment["NAME"]."<br>".$comment["MESSAGE"];
+                        }
                     }
                 ?>
             </li>
