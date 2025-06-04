@@ -7,5 +7,7 @@
         // attributes
         $firstName;
         $lastName;
+        $accountNumber;
+        
     }
 ?>
