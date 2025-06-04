@@ -4,6 +4,6 @@
     class bankAccount{
         // should have attributes and methods
         
-        
+        ..attributes
     }
 ?>
