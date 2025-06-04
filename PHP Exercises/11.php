@@ -5,10 +5,12 @@
         // should have attributes and methods
         
         // attributes
-        $firstName;
-        $lastName;
-        $accountNumber;
-        $balance = NULL;
+        function createAccount($fname, $lnane, $accNo){
+            $firstName = $fname;
+            $lastName = $lname;
+            $accountNumber;
+            $balance = NULL;
+        }
 
         function checkBalance(){
             echo $balance;
@@ -21,7 +23,7 @@
 
         function withdrawCash($amount){
             $balance -= $amount;
-            echo "A wi of ".$amount." is successfull! <br>Your balance is: ".$balance."<br>";
+            echo "A withdrawal of ".$amount." is successfull! <br>Your balance is: ".$balance."<br>";
         }
     }
 ?>
