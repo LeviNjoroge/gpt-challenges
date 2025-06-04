@@ -8,6 +8,8 @@
         $firstName;
         $lastName;
         $accountNumber;
-        
+        $balance = NULL;
+
+        function
     }
 ?>
