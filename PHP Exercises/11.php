@@ -5,10 +5,10 @@
         // should have attributes and methods
         
         // attributes
-        function createAccount($fname, $lnane, $accNo){
+        function createAccount($fname, $lname, $accNo){
             $firstName = $fname;
             $lastName = $lname;
-            $accountNumber;
+            $accountNumber = $accNo;
             $balance = NULL;
         }
 
