@@ -14,6 +14,12 @@
             echo $balance;
         }
 
-        function depositCash
+        function depositCash($amount){
+            $balance += $amount;
+        }
+
+        function withdrawCash($amount){
+            $balance -= $amount;
+        }
     }
 ?>
