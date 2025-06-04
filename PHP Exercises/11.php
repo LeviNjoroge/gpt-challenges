@@ -10,6 +10,8 @@
         $accountNumber;
         $balance = NULL;
 
-        function
+        function checkBalance(){
+            
+        }
     }
 ?>
