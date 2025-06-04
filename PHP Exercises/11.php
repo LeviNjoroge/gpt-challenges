@@ -16,10 +16,12 @@
 
         function depositCash($amount){
             $balance += $amount;
+            echo "A deposit of ".$amount." is successfull! <br>Your balance is: ".$balance."<br>";
         }
 
         function withdrawCash($amount){
             $balance -= $amount;
+            echo "A wi of ".$amount." is successfull! <br>Your balance is: ".$balance."<br>";
         }
     }
 ?>
