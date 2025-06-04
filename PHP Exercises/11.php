@@ -4,6 +4,8 @@
     class bankAccount{
         // should have attributes and methods
         
-        ..attributes
+        // attributes
+        $firstName;
+        $lastName;
     }
 ?>
