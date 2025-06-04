@@ -11,7 +11,9 @@
         $balance = NULL;
 
         function checkBalance(){
-            
+            echo $balance;
         }
+
+        function depositCash
     }
 ?>
